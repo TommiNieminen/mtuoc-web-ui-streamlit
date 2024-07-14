@@ -1,0 +1,23 @@
+- name: BOIB-cat-spa
+  ip: 192.168.1.45
+  port: 8002
+  source_suffix: ca
+  target_suffix: es
+
+- name: MTUOC-UNPC-eng-spa
+  ip: 84.88.58.132
+  port: 8004
+  source_suffix: en
+  target_suffix: es
+
+- name: MTUOC-UNPC-eng-spa
+  ip: 84.88.58.132
+  port: 8002
+  source_suffix: ca
+  target_suffix: es
+
+- name: tester
+  ip: 172.20.137.165
+  port: 8000
+  source_suffix: en
+  target_suffix: es
