@@ -14,7 +14,7 @@ The Web UI uses the Okapi framework to parse and generate files. Okapi is built 
 1. Download OpenJDK22 for your system from here: [https://jdk.java.net/22/](https://jdk.java.net/22/)
 2. Extract the OpenJDK22 tar.gz archive that you downloaded in the previous step (at the time of writing, the archive name is openjdk-22.0.1_linux-x64_bin.tar.gz): `tar -xvf openjdk-22.0.1_linux-x64_bin.tar.gz`
 3. Export the path of the extracted tar.gz archive as JAVA_HOME environment variable. For instance, if you extracted the archive into your home directory: `export JAVA_HOME="$HOME/jdk-22.0.1"`
-4. Download the MTUOC Okapi wrapper jar file from here: [https://github.com/TommiNieminen/mtuoc-web-ui-streamlit/releases/tag/okapi_wrapper_v1](https://github.com/TommiNieminen/mtuoc-translate-files/releases/download/okapi_wrapper_v1/mtuocokapiwrapper-1.0.jar)
+4. Download the MTUOC Okapi wrapper jar file from here: [https://github.com/TommiNieminen/mtuoc-web-ui-streamlit/releases/tag/okapi_wrapper_v1](https://github.com/TommiNieminen/mtuoc-web-ui-streamlit/releases/download/okapi_wrapper_v1/mtuocokapiwrapper-1.0.jar)
 5. Create a _jars_ directory in the top directory of the mtuoc-web-ui-streamlit repository, and move the mtuocokapiwrapper-1.0.jar there.
 
 # Usage
